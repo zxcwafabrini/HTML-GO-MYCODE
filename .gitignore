@@ -1,5 +1,136 @@
-# Object file
-*.o
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title> wafa site</title>
+    <style>
+  *{
+    margin: 3px;
+    padding: 3px;
+  }
+  body{
+    background-color:#2D1C5E ;
+  }
+.container {
+  background-color: pink;
+  width:99%;
+  border-radius: 5px;
 
-# Ada Library Information
-*.ali
+}
+.header-menu {
+display:flex;
+justify-content: space-between;
+padding-top: 10px;
+
+}
+.web-site-title {
+  color: white;
+}
+.sign-up {
+  text-decoration: none;
+  font-family:arial;   
+  color: white;
+   border-radius:25px;
+  border: 3px solid white;
+  padding: 12px 19px;
+  background-color: transparent;
+}
+
+.LOGIN-button {
+  text-decoration: none;
+  font-family:arial;  
+  color: white;  
+  border: none;
+  padding: 12px 19px;
+}
+.LOGIN-button:hover{
+  background-color:rgba(255,255,255,0.6);
+  border-radius:25px;  
+}
+
+.chat{
+  display-flex: center; 
+  width: 60%;
+  margin-right: 30%;
+  margin-left: 15%;
+}
+.chatbox1{
+  background-color: white;
+  border-radius:10px;
+  
+}
+img{
+  border-radius: 20px;
+}
+.sign-up:hover{
+  background-color:rgba(248,0,120,0.6);
+}
+.color{
+  background-color:#F80078;
+  border: 2px solid #BC0044;
+  
+  color:white;
+  font-size: 18px;
+  padding:20px;
+  
+}
+.text-color{
+  color:white;
+  font-size:14px;
+}
+
+    </style>
+
+    
+  </head>   
+  <body>    
+  <div class="container">
+      <div class="header-menu">
+       <div class="web-site-title"> 
+          <h2> Landbot.io </h2> 
+       </div>
+        <div class=buttons>         
+             <a class="LOGIN-button" type="submit">LOG IN </a>
+             <a class="sign-up" type="submit"> SIGN UP</a>              
+        </div>       
+      </div> <!--header menu-->    
+    
+    <div class=chat>
+       <section class="chat">
+          <DIV class="chatbox1"> 
+             <p> Hey!👋<br> My name is Landbot and I transform web sites into <strong> Conversationnal experience </strong> 
+             </p> 
+          </DIV>
+          
+         <div class="chatbox1">
+             <p> Would you like to create your own chatbot? 
+             </p> 
+          </div> 
+          
+         <div class="video">
+           <img src="https://storage.googleapis.com/media.helloumi.com/channels/0_2wVkhpa.gif" width="320" hight="240" controls> 
+          </div>
+     
+        <div class="chatbox1">
+         <p> Its <strong> Easy</strong>, beautiful and FREE</p> </div>  
+      </section> <!--chat-->
+       <section class="chat"> 
+       <div class="choosing-an-option">
+        <p class="text-color"> CHOOSE AN OPTION </p> 
+        <div class="chose-buttons">         
+           <input type="button" value="Yes! Create my bot" class="color"> 
+           <input type="button" value="More information" class="color"> 
+         </div>        
+       </div>    
+         
+        <div class="privacy-policy">
+          <p class="text-color">*By clicking you are accepting our 
+            <a href="https://landbot.io/terms-conditions/index.html" class="text-color"> Privacy Policy 
+            </a> 
+          </p> 
+        </div>
+      </section> <!--choice-->
+    </div> <!--chat-->     
+     </div>  
+    </body>  
+  </HTML>
